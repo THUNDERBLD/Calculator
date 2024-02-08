@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-gray-900 m-auto w-max flex">
+    <div class="flex">
+        <div class="hamburger text-white text-lg py-8 ">
+            <svg class="menu cursor-pointer" width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="20" height="2" rx="1" fill="white"/>
+            <rect y="6" width="30" height="2" rx="1" fill="white"/>
+            <rect y="12" width="16" height="2" rx="1" fill="white"/>
+        </svg>      
+        <div><button class="menu2 cursor-pointer">More</button></div> 
+        </div>
+        <div class="info flex bg-black mx-10 m-5 rounded-2xl hidden text-white text-lg p-4 " style="box-shadow: 1px 1px 4px white inset; height: 90vh; width: 90vh;">
+           <div class="text-white text-center font-semibold text-2xl  m-4">Some Scientific Value</div>
+           <div class="oneLine flex justify-evenly">
+                <div class="sin a math font-semibold bg-gray-400 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">sin</div>
+                <div class="cos a math font-semibold bg-gray-400 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">cos</div>
+                <div class="tan a math font-semibold bg-gray-400 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">tan</div>
+                <div class="ln a math font-semibold bg-gray-400 text-3xl text-black p-3 px-4 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">ln</div>
+           </div>
+           <div class="twoLine flex justify-evenly">
+                <div class="log a math font-semibold bg-gray-400 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">log</div>
+                <div class="pi a math font-semibold bg-gray-400 text-3xl text-black p-3 px-4 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">pi</div>
+                <div class="iota a math font-semibold bg-gray-400 text-3xl text-black p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">i</div>
+                <div class="exponential math a font-semibold bg-gray-400 text-3xl text-black p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">e</div>
+           </div>
+           <div class="threeLine flex justify-evenly">
+                <div class="leftBracket a font-semibold bg-gray-400 px-6 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">(</div>
+                <div class="rightBracket a font-semibold bg-gray-400 px-6 text-3xl text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">)</div>
+                <div class="power a font-semibold bg-gray-400 text-3xl px-5 text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">^</div>
+                <div class="squareRoot a font-semibold bg-gray-400 text-3xl px-5 text-black p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">√</div>
+           </div>
+           <div class="fourLine flex justify-evenly">
+                <div class="mod a font-semibold bg-yellow-500 text-3xl text-white p-3 px-12 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">|x|</div>
+                <div class="mod a font-semibold bg-yellow-500 text-3xl text-white p-3 px-12 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">|x|</div>
+           </div>
+           <div class="text-white text-center text-2xl  m-2">Made by Faraz Mohammed <br><br> Visit Now :--- </div>
+           <div class="text-white text-center text-2xl underline m-2"><a href="https://github.com/THUNDERBLD" target="_blank">Github</a></div>
+           <div class="text-white text-center text-2xl underline m-2"><a href="https://www.linkedin.com/in/faraz-mohammed-162289227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a></div>
+        </div>
+    </div>
+    <div class="calculator w-96 m-5 rounded-2xl p-3 bg-black" style="height: 90vh; ">
+        <div class="display w-full h-32 rounded-2xl p-2" style="box-shadow: 2px 2px 8px white inset; ">
+            <div class="input bg-gray-900 text-white text-5xl h-14 "></div>
+            <div class="output bg-gray-900 text-white text-5xl h-14"></div>
+        
+        </div>
+        <div class="keyborad my-4 w-full rounded-2xl p-2" style="height: 63vh;">
+            <div class="numpad">
+                <div class="lineOne flex justify-evenly">
+                    <div class="ac a font-semibold bg-gray-400 text-3xl p-3 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">AC</div>
+                    <div class="back a font-bold bg-gray-400 text-2xl p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">C</div>
+                    <div class="percentage a font-semibold bg-gray-400 text-4xl p-3 px-4 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px inset;">%</div>
+                    <div class="divide a text-white font-semibold bg-yellow-500 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">/</div>
+                </div>
+                <div class="lineTwo flex justify-evenly">
+                    <div class="seven a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">7</div>
+                    <div class="eight a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">8</div>
+                    <div class="nine a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">9</div>
+                    <div class="multiply a text-white font-semibold bg-yellow-500 text-4xl p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">*</div>
+                </div>
+                <div class="lineThree flex justify-evenly">
+                    <div class="four a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">4</div>
+                    <div class="five a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">5</div>
+                    <div class="six a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">6</div>
+                    <div class="minus a text-white font-semibold bg-yellow-500 text-4xl p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">-</div>
+                </div>
+                <div class="lineFour flex justify-evenly">
+                    <div class="one a font-semibold bg-gray-400 text-4xl p-3 px-6 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">1</div>
+                    <div class="two a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">2</div>
+                    <div class="three a font-semibold bg-gray-400 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">3</div>
+                    <div class="plus a text-white font-semibold bg-yellow-500 text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">+</div>
+                </div>
+                <div class="lineFive flex justify-evenly ">
+                    <div class="zero a font-semibold bg-gray-400 text-4xl p-3 pr-28 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">0</div>
+                    <div class="point a font-semibold bg-gray-400 text-4xl p-3 px-7 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">.</div>
+                    <div class="equal a font-semibold bg-yellow-500 text-white text-4xl p-3 px-5 m-2 rounded-full cursor-pointer" style="box-shadow: 2px 2px 5px black inset;">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js2.js"></script>
+</html>
